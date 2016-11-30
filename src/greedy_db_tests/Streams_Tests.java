@@ -1,6 +1,5 @@
 package greedy_db_tests;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
 
 import greedy_db.Streams;

@@ -22,10 +22,15 @@ List<JSONObject> stream;
 		stream.add(newJSON(json));
 		return;
 	}
+	
+	public JSONObject getLatest() {
+		return  stream.size()-1 > 0 ? stream.get( stream.size()-1 ) : null;
+	}
 
 	private JSONObject newJSON(String json) throws JSONException {
 		return new JSONObject(json);
 	}
+
 	
 	
 
