@@ -2,9 +2,9 @@ Greedy DB is a set of Java Units designed to store, search and retrieve JSON.
 
 The data did not need to be held for long, and therefore it is stored in state.
 
-Problems setting up Eclipse Java Servlets were problematic on the only machine available, therefore only the units have been provided.
+Setting up Eclipse Java Servlets were problematic on the only machine available, therefore only the units have been provided.
 
-Units have been tested with JUnit - laid out verbosely in 4 phases according to the ThoughtBot guidance.
+Units have been tested with JUnit - laid out verbosely in 4 phases according to ThoughtBot guidance.
 
 
 Documentation:
